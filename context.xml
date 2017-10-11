@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+
+	<Manager pathname=""/>
+
+	<Loader className="org.apache.catalina.loader.WebappLoader"
+			loaderClass="org.apache.catalina.loader.ParallelWebappClassLoader"
+			delegate="false" reloadable="false"/>
+
+  <Resources cachingAllowed="true" cacheMaxSize="10240"/>
+
+</Context>
